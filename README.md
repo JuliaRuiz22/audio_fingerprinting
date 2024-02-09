@@ -69,11 +69,33 @@ if __name__ == "__main__":
     # Print or use the generated fingerprint
     print("Audio fingerprint:", fingerprint)
 
-
-
-
 ```
 
+
+## INSTRUCTIONS:
+
+For those interested in understanding and exploring the algorithms used, the complete version of the code is found in the 'CODE' folder inside this repository. This code is done using Python, therefore it is advised to open it using a Python environment program such as Pycharm. To install Pycharm click on [Download](https://www.jetbrains.com/es-es/pycharm/). 
+
+Then, open it in your device, create a new project and give it a name, for example 'PycharmProject'. 
+
+<img width="200" alt="image" src="https://github.com/emilyedgars/ADS-Project/assets/152634583/3c4dd310-1cc3-4582-8164-c51fb025cb70">
+
+After, download the datasets, and open your documents foulder on your device. You have to move the datasets from Downloads to your new 'PycharmProjects' foulder.
+
+<img width="60" alt="image" src="https://github.com/emilyedgars/ADS-Project/assets/152634583/61110ccb-ffe9-420e-99ad-d3ad9dc27e26">  <img width="277" alt="image" src="https://github.com/emilyedgars/ADS-Project/assets/152634583/328ec29c-e69e-4e72-91be-a9967f2697a3">
+
+Now, when you enter Pycharm, you will see the datasets appear here:
+<img width="200" alt="image" src="https://github.com/emilyedgars/ADS-Project/assets/152634583/f32cea42-d201-4d4e-9311-b45311be4127">
+
+Then, copy the code into your new project and run it. The pycharm console will pop up and show if there are any errors, or in case it runs correctly,  show the questions for the user.
+<img width="200" alt="image" src="https://github.com/emilyedgars/ADS-Project/assets/152634583/3c776bc9-4120-434d-a352-1440051acecc">
+
+## CONTACT US:
+
+For further information or help please contact:
+jruiz.ieu2022@student.ie.edu
+
+This README file will constantly be updated by the developers of the project: Julia, Álvaro, Darío and Mateo.
 
 
 
