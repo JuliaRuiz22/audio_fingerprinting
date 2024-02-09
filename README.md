@@ -22,7 +22,7 @@ Audio fingerprinting has several practical applications:
 
 ## Real-life Examples
 
-One of the most well-known applications of audio fingerprinting is Shazam. Shazam creates a fingerprint of audio snippets and compares them with a vast database of stored fingerprints from various songs. This process enables users to quickly identify songs they are listening to.
+One of the most well-known applications of audio fingerprinting is Shazam. Shazam creates a fingerprint of audio snippets and compares them with a vast database of stored fingerprints from various songs. This process enables users to quickly identify songs they are listening to. More information about Shazam here https://www.youtube.com/watch?v=h8fYOd3Dzac
 
 ## Other examples not related to music:
 
