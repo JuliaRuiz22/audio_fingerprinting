@@ -8,6 +8,10 @@ This project is an integral part of the Advanced Algorithms and Data Structures 
 
 Audio fingerprinting involves identifying unique characteristics within audio recordings, much like identifying individual signatures or fingerprints. These characteristics include factors such as tone, amplitude, and wavelength. By recognizing this unique combination of attributes, entire audio recordings can be identified. This process finds applications in various fields, including pattern matching, multimedia (music) information retrieval, and cryptography.
 
+## Scientific explanation of how it works:
+
+When an audio clip is inputted into the system, it undergoes a process where it's transformed from its raw waveform representation into a condensed digital signature, often referred to as a fingerprint. This transformation involves various techniques, including spectral analysis and feature extraction. Spectral analysis breaks down the audio signal into its constituent frequencies, revealing information about the tone and pitch of the sound. Feature extraction identifies key characteristics such as amplitude variations, temporal patterns, and frequency distributions within the signal. These extracted features are then used to create a compact representation of the audio, which can be efficiently stored and compared with other fingerprints in a database. By matching these fingerprints, the system can quickly identify and retrieve similar or identical audio recordings, enabling applications such as music identification, content recognition, and event detection.
+
 ## Applications
 
 Audio fingerprinting has several practical applications:
