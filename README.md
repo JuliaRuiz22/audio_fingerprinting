@@ -25,8 +25,16 @@ Audio fingerprinting has several practical applications:
 One of the most well-known applications of audio fingerprinting is Shazam. Shazam creates a fingerprint of audio snippets and compares them with a vast database of stored fingerprints from various songs. This process enables users to quickly identify songs they are listening to.
 
 ## Other examples not related to music:
+
 - **Security**:  in security surveillance systems, audio fingerprinting can be used to detect specific events like breaking glass, gunshots, or alarms. By matching these audio fingerprints with those stored in a database, security personnel can quickly respond to potential threats or incidents captured by surveillance cameras in shopping centers, streets, or buildings.
 - **Transportation**: in traffic management systems, audio fingerprinting can be utilized to identify specific sounds associated with traffic congestion, accidents, or emergency vehicle sirens. By analyzing the audio data collected from traffic cameras or sensors, authorities can monitor traffic conditions more effectively and respond promptly to incidents on the road.
+
+## Problems:
+  
+- **Noise and Variability**: Audio fingerprinting algorithms can be sensitive to background noise, variations in recording quality, and other environmental factors. This can lead to inaccuracies in fingerprint generation and matching.
+- **Robustness**: Fingerprinting systems may struggle to accurately identify audio in the presence of distortions, such as compression artifacts or signal processing effects. Ensuring robustness across different audio formats and recording conditions is a significant challenge.
+-  **Adversarial Attacks**: Like other machine learning-based systems, audio fingerprinting algorithms may be vulnerable to adversarial attacks. Malicious actors could potentially manipulate audio signals to evade detection or generate false positives.
+- **Legal and Ethical Considerations**: The use of audio fingerprinting technology raises legal and ethical questions, particularly concerning privacy, intellectual property rights, and surveillance. Adherence to relevant regulations and ethical guidelines is critical to mitigate potential risks and ensure responsible use.
 
 ## CODE TEMPLATE:
 
