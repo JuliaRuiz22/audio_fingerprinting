@@ -24,6 +24,10 @@ Audio fingerprinting has several practical applications:
 
 One of the most well-known applications of audio fingerprinting is Shazam. Shazam creates a fingerprint of audio snippets and compares them with a vast database of stored fingerprints from various songs. This process enables users to quickly identify songs they are listening to.
 
+## Other examples not related to music:
+- **Security**:  in security surveillance systems, audio fingerprinting can be used to detect specific events like breaking glass, gunshots, or alarms. By matching these audio fingerprints with those stored in a database, security personnel can quickly respond to potential threats or incidents captured by surveillance cameras in shopping centers, streets, or buildings.
+- **Transportation**: in traffic management systems, audio fingerprinting can be utilized to identify specific sounds associated with traffic congestion, accidents, or emergency vehicle sirens. By analyzing the audio data collected from traffic cameras or sensors, authorities can monitor traffic conditions more effectively and respond promptly to incidents on the road.
+
 ## CODE TEMPLATE:
 
 ```
@@ -74,7 +78,6 @@ if __name__ == "__main__":
     print("Audio fingerprint:", fingerprint)
 
 ```
-
 
 ## INSTRUCTIONS:
 
