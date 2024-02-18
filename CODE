@@ -1,1 +1,31 @@
+pip install dejavu
 
+
+from dejavu import Dejavu
+from dejavu.recognize import FileRecognizer
+
+# Configuration for Dejavu
+config = {
+    "database": {
+        "host": "127.0.0.1",
+        "user": "your_username",
+        "password": "your_password",
+        "database": "dejavu_db",
+    }
+}
+
+# Initialize Dejavu
+djv = Dejavu(config)
+
+# Recognize audio
+def recognize_audio(file_path):
+    # Recognize audio file
+    song = djv.recognize(FileRecognizer, file_path)
+    if song is None:
+        print("No match found.")
+    else:
+        print(f"Found match: {song['song_name']} (Confidence: {song['confidence']})")
+
+# Example usage
+file_path = "path/to/your/audio/file.mp3"
+recognize_audio(file_path)
