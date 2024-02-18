@@ -6,18 +6,22 @@ This project is an integral part of the Advanced Algorithms and Data Structures 
 
 ## Introduction to Audio Fingerprinting
 
-Every audio is made of a combination of characteristics such as its tone, amplitude or wavelength that makes it identifiable and unique. By recognizing this unique combination of attributes, entire audio recordings can be identified from just a short sample. Audio fingerprinting has various applications such as, pattern matching, multimedia (music) information retrieval, and cryptography.
+Every audio is made of a combination of characteristics such as its tone, amplitude or wavelength, that makes it identifiable and unique. By recognizing this unique combination of attributes, entire audio recordings can be identified from just a short sample. Audio fingerprinting has various applications such as, pattern matching, multimedia (music) information retrieval, and cryptography.
+
+<img src="https://github.com/JuliaRuiz22/audio_fingerprinting/assets/152634583/2b9360aa-772b-4a6e-a7f2-5d1b13454e93" width="200" height="200">
+
 
 ## Scientific explanation of how it works:
 
-When an audio clip (short audio less than 30 seconds) is inputted, it undergoes a process where it's transformed from its raw waveform representation into a condensed digital signature, wich is also called a fingerprint. In order to undergo this transformation we use spectral analysis and feature extraction.
-  - **Spectral Analysis**: breaks down the audio signal into its frequencies, revealing information about the tone and pitch of the sound.
-   - **Feature extraction**: identifies key characteristics such as amplitude variations, temporal patterns, and frequency distributions within the signal.
-These extracted features are then used to create a compact representation of the audio, which can be efficiently stored and compared with other fingerprints in a database. By matching these fingerprints, the system can quickly identify and retrieve similar or identical audio recordings, enabling applications such as music identification, content recognition, and event detection.
+When an audio clip (short audio less than 30 seconds) is inputted, it undergoes a process where it's transformed from its raw waveform representation into a digital signature/fingerprint. In order for this transformation to ocurr, we use spectral analysis and feature extraction.
+  - **Spectral Analysis**: breaks down the audio signal into its frequencies, revealing information about the tone and pitch of the sound. It is similar to the experiment of using a triangular prism to decompose a ray of light into its colour components.
+     ![image](https://github.com/JuliaRuiz22/audio_fingerprinting/assets/152634583/6c0765a3-d4d3-4c48-a557-b1c91c4050fe)
+   - **Feature extraction**: identifies key characteristics of our audio sample such as  amplitude and loudness variations, patterns, and frequency distribution (this are called features). We want to focus on the special and representative things that our  audio sample has.
+These extracted features are then used to create the fingerprint, which can be efficiently stored and then compared with other fingerprints that are stored in a database (we will see an example of this later in the README - Shazam).
 
 ## Applications
 
-Audio fingerprinting has several practical applications:
+Audio fingerprinting has several applications such as:
 
 - **Pattern Matching**: Allows matching of an audio snippet with its corresponding full-length recording.
 - **Multimedia (Music) Information Retrieval**: Aids in the categorization and organization of audio content in digital libraries.
@@ -25,11 +29,11 @@ Audio fingerprinting has several practical applications:
 
 ## Real-life Examples
 
-One of the most well-known applications of audio fingerprinting is Shazam. Shazam creates a fingerprint of audio snippets and compares them with the entries of a database contained stored fingerprints from various songs. This process enables users to quickly identify songs they are listening to. More information about Shazam [here](https://www.youtube.com/watch?v=h8fYOd3Dzac). 
+One of the most well-known and popular applications that uses audio fingerprinting is Shazam. Shazam creates a fingerprint from the audio by analysing its sound wave and then compares it with the entries of a database that has stored fingerprints from millions songs. So, it is a simple comparison process between the fingerprint that has just been created with the ones registered in a dataset, and, when a match is found, it returns the corresponding song and artist. This process enables users to quickly identify songs they are listening to. More information about Shazam [here](https://www.youtube.com/watch?v=h8fYOd3Dzac). 
 
 ## Other examples not related to music:
 
-- **Security**:  audio fingerprinting can be used to detect specific events like breaking glass, gunshots, or alarms. By matching these audio fingerprints with those stored in a database, security personnel can quickly respond to potential threats or incidents captured by surveillance cameras in shopping centers, streets, or buildings.
+- **Security**:  audio fingerprinting can be used to detect specific events such as robberies by detecting  breaking glass, gunshots, or alarms. By matching these audio fingerprints with those stored in a database, security personnel can quickly respond to potential threats or incidents captured by surveillance cameras in shopping centers, streets, or buildings.
 - **Transportation**: in traffic management systems, audio fingerprinting can be utilized to identify specific sounds associated with traffic congestion, accidents, or emergency vehicle sirens. By analyzing the audio data collected from traffic cameras or sensors, authorities can monitor traffic conditions more effectively and respond promptly to incidents on the road.
 
 ## Problems:
