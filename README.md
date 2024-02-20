@@ -26,22 +26,7 @@ Audio fingerprinting has several applications such as:
 
 - **Pattern Matching**: Allows matching of an audio snippet with its corresponding full-length recording.
 - **Multimedia (Music) Information Retrieval**: Aids in the categorization and organization of audio content in digital libraries.
-- **Cryptography**: Utilizes hashing to securely store audio fingerprints for authentication and verification purposes. A hash table is a data structure that stores elements as key-value pairs in an array, where each key is unique and associated with a corresponding value.
-
-``` 
-        # Create a dictionary with user information
-        user_info = {
-            'Name': [name],
-            'Gender': [gender],
-            'Age': [age],
-            'Extraversion': [extraversion],
-            'Pets': [pet_preference.lower() == 'yes'],
-            'Region': [region],
-            'Budget': [budget],
-            'Location': [location]
-        }
-```
-If you want to further understand the concept of hashing, click [here](https://www.geeksforgeeks.org/hashing-data-structure/).
+- **Cryptography**: Utilizes hashing to securely store audio fingerprints for authentication and verification purposes. A hash table is a data structure that stores elements as key-value pairs in an array, where each key is unique and associated with a corresponding value. If you want to further understand the concept of hashing, click [here](https://www.geeksforgeeks.org/hashing-data-structure/).
 
 ## Real-life Examples
 
