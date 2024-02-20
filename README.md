@@ -15,7 +15,7 @@ Every audio is made of a combination of characteristics such as its tone, amplit
 
 When an audio clip (short audio less than 30 seconds) is inputted, it undergoes a process where it's transformed from its raw waveform representation into a digital signature/fingerprint. In order for this transformation to ocurr, we use spectral analysis and feature extraction.
   - **Spectral Analysis**: breaks down the audio signal into its frequencies, revealing information about the tone and pitch of the sound. It is similar to the experiment of using a triangular prism to decompose a ray of light into its colour components.
-  - 
+
      ![image](https://github.com/JuliaRuiz22/audio_fingerprinting/assets/152634583/6c0765a3-d4d3-4c48-a557-b1c91c4050fe)
    - **Feature extraction**: identifies key characteristics of our audio sample such as  amplitude and loudness variations, patterns, and frequency distribution (this are called features). We want to focus on the special and representative things that our  audio sample has.
 These extracted features are then used to create the fingerprint, which can be efficiently stored and then compared with other fingerprints that are stored in a database (we will see an example of this later in the README - Shazam).
@@ -26,7 +26,7 @@ Audio fingerprinting has several applications such as:
 
 - **Pattern Matching**: Allows matching of an audio snippet with its corresponding full-length recording.
 - **Multimedia (Music) Information Retrieval**: Aids in the categorization and organization of audio content in digital libraries.
-- **Cryptography**: Utilizes hashing to securely store audio fingerprints for authentication and verification purposes. A hash table/dictionary is a data structure that stores elements as key-value pairs, where each key is unique and associated with a corresponding value.
+- **Cryptography**: Utilizes hashing to securely store audio fingerprints for authentication and verification purposes. A hash table is a data structure that stores elements as key-value pairs, where each key is unique and associated with a corresponding value.
 
 ``` 
         # Create a dictionary with user information
@@ -41,7 +41,7 @@ Audio fingerprinting has several applications such as:
             'Location': [location]
         }
 ```
-If you want to further understand the concept of hashing, click [here]([https://www.techtarget.com/searchdatamanagement/definition/hashing](https://www.geeksforgeeks.org/hashing-data-structure/))
+If you want to further understand the concept of hashing, click [here]([https://www.techtarget.com/searchdatamanagement/definition/hashing](https://www.geeksforgeeks.org/hashing-data-structure/).
 
 ## Real-life Examples
 
