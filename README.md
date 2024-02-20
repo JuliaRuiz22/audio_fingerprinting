@@ -41,7 +41,7 @@ Audio fingerprinting has several applications such as:
             'Location': [location]
         }
 ```
-If you want to further understand the concept of hashing, click [here]([https://www.techtarget.com/searchdatamanagement/definition/hashing](https://www.geeksforgeeks.org/hashing-data-structure/).
+If you want to further understand the concept of hashing, click [here](https://www.geeksforgeeks.org/hashing-data-structure/).
 
 ## Real-life Examples
 
