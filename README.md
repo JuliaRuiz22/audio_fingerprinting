@@ -15,6 +15,7 @@ Every audio is made of a combination of characteristics such as its tone, amplit
 
 When an audio clip (short audio less than 30 seconds) is inputted, it undergoes a process where it's transformed from its raw waveform representation into a digital signature/fingerprint. In order for this transformation to ocurr, we use spectral analysis and feature extraction.
   - **Spectral Analysis**: breaks down the audio signal into its frequencies, revealing information about the tone and pitch of the sound. It is similar to the experiment of using a triangular prism to decompose a ray of light into its colour components.
+  - 
      ![image](https://github.com/JuliaRuiz22/audio_fingerprinting/assets/152634583/6c0765a3-d4d3-4c48-a557-b1c91c4050fe)
    - **Feature extraction**: identifies key characteristics of our audio sample such as  amplitude and loudness variations, patterns, and frequency distribution (this are called features). We want to focus on the special and representative things that our  audio sample has.
 These extracted features are then used to create the fingerprint, which can be efficiently stored and then compared with other fingerprints that are stored in a database (we will see an example of this later in the README - Shazam).
@@ -25,7 +26,7 @@ Audio fingerprinting has several applications such as:
 
 - **Pattern Matching**: Allows matching of an audio snippet with its corresponding full-length recording.
 - **Multimedia (Music) Information Retrieval**: Aids in the categorization and organization of audio content in digital libraries.
-- **Cryptography**: Utilizes hashing to securely store audio fingerprints for authentication and verification purposes.
+- **Cryptography**: Utilizes hashing to securely store audio fingerprints for authentication and verification purposes. If you want to further understand the concept of hashing, click [here](https://www.techtarget.com/searchdatamanagement/definition/hashing)
 
 ## Real-life Examples
 
@@ -33,14 +34,14 @@ One of the most well-known and popular applications that uses audio fingerprinti
 
 ## Other examples not related to music:
 
-- **Security**:  audio fingerprinting can be used to detect specific events such as robberies by detecting  breaking glass, gunshots, or alarms. By matching these audio fingerprints with those stored in a database, security personnel can quickly respond to potential threats or incidents captured by surveillance cameras in shopping centers, streets, or buildings.
-- **Transportation**: in traffic management systems, audio fingerprinting can be utilized to identify specific sounds associated with traffic congestion, accidents, or emergency vehicle sirens. By analyzing the audio data collected from traffic cameras or sensors, authorities can monitor traffic conditions more effectively and respond promptly to incidents on the road.
+- **Security**:  having the audio fingerprint of a breaking glass, alarms, or gunshots is extremely useful in the security field since by matching these audio fingerprints with those stored in a database, security personnel can quickly respond to potential threats such as robberies.
+- **Traffic**: audio fingerprinting can be used to identify specific sounds associated with traffic congestion, accidents, or emergency vehicle sirens. By analyzing the audio data collected from traffic cameras or sensors, authorities can monitor traffic conditions more effectively and respond promptly to incidents on the road.
 
 ## Problems:
   
 - **Noise and Variability**: Audio fingerprinting algorithms can be sensitive to background noise, variations in recording quality, and other environmental factors. This can lead to inaccuracies in fingerprint generation and matching.
-- **Robustness**: Fingerprinting systems may struggle to accurately identify audio in the presence of distortions, such as compression artifacts or signal processing effects. Ensuring robustness across different audio formats and recording conditions is a significant challenge.
--  **Adversarial Attacks**: Like other machine learning-based systems, audio fingerprinting algorithms may be vulnerable to adversarial attacks. Malicious actors could potentially manipulate audio signals to evade detection or generate false positives.
+- **Robustness**: Fingerprinting systems may struggle to accurately identify audio when there are some sort of distortions such as compression or signal problems. Ensuring robustness across different audio formats and recording conditions is a significant challenge.
+-  **Adversarial Attacks**: audio fingerprinting algorithms may be vulnerable to attacks. Malicious actors could potentially manipulate audio signals to evade detection or generate false positives (FP).
 - **Legal and Ethical Considerations**: The use of audio fingerprinting technology raises legal and ethical questions, particularly concerning privacy, intellectual property rights, and surveillance. Adherence to relevant regulations and ethical guidelines is critical to mitigate potential risks and ensure responsible use.
 
 ## CODE TEMPLATE:
